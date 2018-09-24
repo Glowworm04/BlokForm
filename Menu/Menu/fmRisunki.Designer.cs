@@ -1,6 +1,6 @@
-﻿namespace BlokForm
+﻿namespace Menu
 {
-    partial class fmVhod
+    partial class fmRisunki
     {
         /// <summary>
         /// Required designer variable.
@@ -28,34 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dgv = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.SuspendLayout();
             // 
-            // dgv
-            // 
-            this.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgv.Location = new System.Drawing.Point(0, 0);
-            this.dgv.Name = "dgv";
-            this.dgv.Size = new System.Drawing.Size(781, 590);
-            this.dgv.TabIndex = 0;
-            // 
-            // fmVhod
+            // fmDiagramma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(781, 590);
-            this.Controls.Add(this.dgv);
-            this.Name = "fmVhod";
-            this.Text = "Form2";
-            ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
+            this.ClientSize = new System.Drawing.Size(1214, 755);
+            this.Name = "fmDiagramma";
+            this.Text = "Диаграмма Ганта";
+            this.Load += new System.EventHandler(this.fmDiagramma_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dgv;
     }
 }

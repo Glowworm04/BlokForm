@@ -4,11 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace BlokForm
+namespace Menu
 {
     static class Program
     {
-        public static string Email = "", Password = "", Role = "";
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
@@ -17,7 +16,7 @@ namespace BlokForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fmAvtor());
+            Application.Run(new fmMenu());
         }
     }
 }
